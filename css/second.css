@@ -1,0 +1,40 @@
+.page-content .feedback h2 {
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  margin: 210px 0;
+}
+
+.page-content .feedback-wrap {
+  background: #fff;
+  -webkit-box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.page-content .feedback-wrap__form-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.page-content .feedback-wrap__items {
+  width: 511px;
+}
+
+.page-content .feedback-wrap__items-country {
+  position: relative;
+}
+
+.page-content .feedback-wrap__items-country span {
+  position: absolute;
+  top: calc(50% - 12px);
+  right: 30px;
+}
